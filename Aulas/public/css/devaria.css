@@ -10,3 +10,17 @@ body {
     color: #ffffff;
     margin: 0;
 }
+
+.title {
+    padding: 0 20 px;
+    font-size: 1.75em;
+    text-transform: uppercase;
+}
+
+h1.title {
+    margin: 40px auto 20px;
+}
+
+.text-justify {
+    text-align: justify;
+}
