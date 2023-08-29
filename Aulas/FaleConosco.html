@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="public/css/devaria.css" />
         <link rel="stylesheet" href="public/css/header.css" />
         <link rel="stylesheet" href="public/css/footer.css" />
+        <link rel="stylesheet" href="public/css/faleconosco.css" />
         <title>Fale Conosco!</title>
     </head>
     <body>
@@ -22,26 +23,26 @@
             </nav>
         </header>
         <main>
-            <h1>Entre em contato conosco!</h1>
-            <h2>Para enviar uma mensagem para Devaria preencha abaixo e clique em enviar:</h2>
+            <h1 class="title text-center">Entre em contato conosco!</h1>
+            <h2 class="sub-title text-center">Para enviar uma mensagem para Devaria preencha abaixo e clique em enviar:</h2>
             <section>
-                <form action="FaleConosco.html">
-                    <p>
+                <form action="FaleConosco.html" class="contact-form margin-horizontal-20px">
+                    <div>
                         <label>Nome: </label><input type="text" name="Nome" maxlength="70"/>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label>E-mail: </label><input type="text" name="Email" maxlength="150"/>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label>Comentário:<br/></label>
                         <textarea name="Comentario" rows="4" cols="50"></textarea>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label>Sexo:</label>
-                        <input type="radio" name="Sexo"/><label>Feminino</label>
-                        <input type="radio" name="Sexo"/><label>Masculino</label>
-                    </p>
-                    <p>
+                        <input type="radio" name="Sexo"/><span>Feminino</span>
+                        <input type="radio" name="Sexo"/><span>Masculino</span>
+                    </div>
+                    <div>
                         <label>Aonde nos conheceu?</label>
                         <select name="Conheceu">
                             <option selected>Youtube</option>
@@ -49,15 +50,15 @@
                             <option>LinkedIn</option>
                             <option>Google</option>
                         </select>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <input type="checkbox" name="Novidades" value="Aceite"/>
-                        <label>Aceito receber e-mail de novidades e promoções</label>
-                    </p>
-                    <p>
+                        <span>Aceito receber e-mail de novidades e promoções</span>
+                    </div>
+                    <div>
                         <input type="submit" name="Enviar" value="Enviar"/>
                         <input type="reset" name="Limpar" value="Limpar"/>
-                    </p>
+                    </div>
                 </form>
             </section>
         </main>
