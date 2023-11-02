@@ -50,8 +50,8 @@ main .contact-form > div input[type="reset"] {
 
 main .contact-form > div input[type="submit"] {
     background-color: #3bd42d;
-    padding: 10px
-    font-weight:bold;
+    padding: 10px;
+    font-weight: bold;
 }
 
 main .contact-form > div input[type="reset"] {
